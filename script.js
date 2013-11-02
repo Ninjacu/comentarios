@@ -13,6 +13,8 @@ $(document).ready(function() {
             $("#comentarios-escritos").prepend(divCompleto);
     });
     $("#comentarios-escritos").on('click', '.eliminar', function(){
-       alert("ELIMINAR");
+       alert("Muere Padre!");
+        var padre= $(this).parent();
+        $(padre).remove();
     });
 });
