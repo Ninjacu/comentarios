@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'shoes';
+    font-style: normal;
+    font-weight: normal;
+    src: url('shoes.ttf');
+}
+@font-face {
+    font-family: 'oeste';
+    font-style: normal;
+    font-weight: normal;
+    src: url('oeste.ttf');
+}
+#titulo {
+    font-family: shoes;
+    font-size: 60px;
+}
+#comentarios {
+    height: 200px;
+    width: 500px;
+    display: block;
+    border-width: 5px;
+    border-color: black;
+    background-color: greenyellow;
+    font-family: 'shoes';
+    font-size: 20px;
+}
+#enviar {
+    border-width: 5px;
+    border-color: red;
+    background-color: black;
+    font-family: 'shoes';
+    color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.comentario-enviado {
+    margin-top: 20px;
+    background-color: #FFFF00;
+    font-family: 'oeste';
+    font-size: 20px;
+    color: red;
+    width: 500px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 5px #A4A4A4;
+}
+.fecha {
+    color: black;
+    font-family: 'shoes';
+}
