@@ -11,10 +11,13 @@ $(document).ready(function() {
         var divComentarioEscrito= "<div class='comentario-enviado'>";
         var divCompleto= divComentarioEscrito+fechaComentario+"   "+texto+"   "+cruz+"</div>";
             $("#comentarios-escritos").prepend(divCompleto);
+        $.post("insertarcomentario.php",{texto:texto},function(){});
     });
     $("#comentarios-escritos").on('click', '.eliminar', function(){
        alert("Muere Padre!");
         var padre= $(this).parent();
+        var hermanos= $(this).siblings(".porfin").html();
         $(padre).remove();
+        $.post("eliminarcomentario.php", {texto:hermanos},function(){});
     });
 });

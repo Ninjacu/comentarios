@@ -23,6 +23,9 @@
     background-color: greenyellow;
     font-family: 'shoes';
     font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #enviar {
     border-width: 5px;
@@ -45,6 +48,8 @@
     padding-top: 10px;
     padding-right: 10px;
     box-shadow: 10px 10px 5px #A4A4A4;
+    margin-left: auto;
+    margin-right: auto;
 }
 .fecha {
     color: black;
@@ -53,4 +58,25 @@
 .eliminar {
     width: 20px;
     height: 20px;
+}
+body {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80%;
+    background-image: url(hasa.jpg);
+}
+header {
+    background-color: #D0FA58;
+    text-align: center;
+    border: 5px solid black;
+}
+footer {
+    background-color: #D0FA58;
+    border: 5px solid black;
+}
+.cuerpo {
+    background-color: #D0FA58;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 5px solid black;
 }
